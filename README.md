@@ -52,6 +52,5 @@ setup for both accounts is mentioned above.
 5. `cd auth-server` and Run `npm install`, then start the server using `npm start`. Ensure the server is running by visiting `http://localhost:8888/login`, it should redirect to Spotify login page. `http://localhost:8888/token?key='your_UUID_from_step3`, this should return a token. 
 6. `cd spotify-to-applemusic`. Replace the key in `src/apple/apple-auth.js` with your UUID from step 3. Run `npm install` then `npm start` to start the react app. 
 
-Full Project Overview: https://www.youtube.com/watch?v=mS2J0dKcvAA&list=PLzFtdULM-ECKsfdNcUvU6Q1rCLcMC8q_B
 
 
